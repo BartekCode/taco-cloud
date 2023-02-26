@@ -2,6 +2,9 @@
 # najwieszky priortet dla danej apki skąd bedzie brana konfiguracja
 server:
   port: 5555
+bartek:
+#  haslo zaszyfrowane przy uzyciu configServera przy pobraniu bedzie rozszyfrowane
+  password: '{cipher}dd9aa1c26f99f5ff0757d1635d6974cf5a866b2ac4bda0bc190b9e968f00f2a7'
 
 ---
 
@@ -12,11 +15,17 @@ spring:
 server:
   port: 7777
 
+bartek:
+  password: '{cipher}dd9aa1c26f99f5ff0757d1635d6974cf5a866b2ac4bda0bc190b9e968f00f2a7'
+
 ---
 
 spring:
   config:
     activate:
       on-profile: prod
+bartek:
+  password: '{cipher}dd9aa1c26f99f5ff0757d1635d6974cf5a866b2ac4bda0bc190b9e968f00f2a7'
+
 server:
   port: 6666
