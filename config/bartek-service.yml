@@ -2,15 +2,14 @@ spring:
   config:
     activate:
       on-profile: dev
-
 server:
   port: 7777
 
 ---
 
-  spring:
-    config:
-      activate:
-        on-profile: prod
+spring:
+  config:
+    activate:
+      on-profile: prod
 server:
   port: 6666
