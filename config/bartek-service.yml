@@ -1,5 +1,10 @@
 # konfiguracja przeznaczona dla konkrentej aplikacji na podstawie applicatio-name zdefionowanej dla danej apk z podzialem na profile
 # najwieszky priortet dla danej apki skąd bedzie brana konfiguracja
+server:
+  port: 5555
+
+---
+
 spring:
   config:
     activate:

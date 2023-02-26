@@ -1,0 +1,3 @@
+# konfiguracja dla konkretnej aplikacjy z aktywnym profilem production !!!
+server:
+  port: 9231
