@@ -1,0 +1,3 @@
+# konfiguracja dla konkretnego profili wszystkie aplikacje o aktywnym profilu dev
+server:
+  port: 1234
