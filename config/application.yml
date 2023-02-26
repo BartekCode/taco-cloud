@@ -1,2 +1,5 @@
 name: bartek
 surname: majster
+
+server:
+  port: 9999
