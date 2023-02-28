@@ -7,8 +7,9 @@ bartek:
 #  '{cipher} daje znac config server ze chodzi o to ze to haslo jest zaszyfrowane
   password: '{cipher}dd9aa1c26f99f5ff0757d1635d6974cf5a866b2ac4bda0bc190b9e968f00f2a7'
 greeting:
-  message: Witaj po zmianie!
+  message: Witaj po zmianie znowu!!!
 
+# by mozna było uzyc actuator/refresh do odswiezenia konfiguracji
 management:
   endpoints:
     web:
@@ -30,6 +31,13 @@ bartek:
 greeting:
   message: Witaj
 
+# by mozna było uzyc actuator/refresh do odswiezenia konfiguracji
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "refresh"
+
 ---
 
 spring:
@@ -44,3 +52,10 @@ greeting:
 
 server:
   port: 6666
+
+# by mozna było uzyc actuator/refresh do odswiezenia konfiguracji
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "refresh"
