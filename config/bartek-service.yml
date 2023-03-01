@@ -7,7 +7,7 @@ bartek:
 #  '{cipher} daje znac config server ze chodzi o to ze to haslo jest zaszyfrowane
   password: '{cipher}dd9aa1c26f99f5ff0757d1635d6974cf5a866b2ac4bda0bc190b9e968f00f2a7'
 greeting:
-  message: Witaj po zmianie 9999!!!
+  message: Witaj po zmianie 12345!!!
 majseter:
   included: yes
 
